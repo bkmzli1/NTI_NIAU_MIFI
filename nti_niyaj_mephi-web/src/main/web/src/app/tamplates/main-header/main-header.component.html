@@ -1,24 +1,43 @@
 <div class="container">
-  <div class="navbar navbar-inverse parent">
-      <ul>
-        <li class="dropdown">
-          <div class="dropdown-toggle show" data-bs-toggle="dropdown" aria-expanded="true">
-            Dropdown form
-          </div>
-          <div class="child dropdown-menu p-4 show" data-bs-popper="static">
-
-          </div>
-        </li>
-        <li class="dropdown">
-          <div class="dropdown-toggle show" data-bs-toggle="dropdown" aria-expanded="true">
-            Dropdown form
-          </div>
-          <div class="child dropdown-menu p-4 show" data-bs-popper="static">
-
-          </div>
-        </li>
+  <div class="navbar navbar-inverse parent" style="position: initial;">
+    <div class="dropdown">
+      <div aria-expanded="false" class="dropdown-toggle open" data-bs-toggle="dropdown"
+           style="z-index: 1;">
+        <div class="open-dropdown" style="z-index: -5"></div>
+        Dropdown button
+      </div>
+      <ul class="dropdown-menu" style="width: 100%;z-index: -4;">
+        <li><a class="dropdown-item" href="#">Action</a></li>
+        <li><a class="dropdown-item" href="#">Another action</a></li>
+        <li><a class="dropdown-item" href="#">Something else here</a></li>
       </ul>
-
     </div>
 
+
+    <div class="dropdown">
+      <div aria-expanded="false" class="dropdown-toggle open" data-bs-toggle="dropdown"
+           style="z-index: 1;">
+        <div class="open-dropdown" style="z-index: -5"></div>
+        Dropdown button1
+      </div>
+      <ul class="dropdown-menu " style="width: 100%;z-index: -4;">
+        <li><a class="dropdown-item" href="#">Action2</a></li>
+        <li><a class="dropdown-item" href="#">Another action</a></li>
+        <li><a class="dropdown-item" href="#">Something else here</a></li>
+      </ul>
+    </div>
+
+    <div class="dropdown">
+      <div aria-expanded="false" class="dropdown-toggle open" data-bs-toggle="dropdown"
+           style="z-index: 1;">
+        <div class="open-dropdown" style="z-index: -5"></div>
+        Dropdown button2
+      </div>
+      <ul class="dropdown-menu" style="width: 100%;z-index: -4;">
+        <li><a class="dropdown-item" href="#">Action3</a></li>
+        <li><a class="dropdown-item" href="#">Another action</a></li>
+        <li><a class="dropdown-item" href="#">Something else here</a></li>
+      </ul>
+    </div>
+  </div>
 </div>
