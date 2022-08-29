@@ -1,0 +1,48 @@
+.parent {
+  position: relative;
+}
+.child {
+  width: 100%;
+  position: absolute;
+  margin-top: -2%;
+  z-index: -1;
+  display: none;
+  background-color: gray;
+}
+
+
+.dropdown{
+  position: static;
+}
+.dropdown-toggle{
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+
+}
+.navbar{
+  position: relative;
+  background-color: white;
+  padding: 0;
+}
+.navbar ul{
+  height: 100%;
+}
+.dropdown:hover .child{
+  display: block;
+  background-color: gray;
+}
+.dropdown:hover{
+  background-color: gray;
+}
+.navbar li{
+  list-style-type: none;
+  float: left;
+  margin-right: 10px;
+  height: 100%;
+}
+
+
+
+
